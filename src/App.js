@@ -15,16 +15,9 @@ import Checkout from './Components/Checkout/Checkout';
 function App() {
   return (
     <div >
-            <SignedOut>
             {/* <p>This content is public. Only signed out users can see the SignInButton above this text.</p> */}
-            <BrowserRouter>
-            <Signin/>
-           
-      </BrowserRouter>
-      
-      </SignedOut>
+            
 
-      <SignedIn>
      
       <BrowserRouter>
       <Navbar/>
@@ -43,7 +36,6 @@ function App() {
       <Footer/>
       </BrowserRouter>
       
-      </SignedIn>
 
     </div>
   );
