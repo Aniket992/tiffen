@@ -1,0 +1,22 @@
+.loginsignup {
+    background-image: url('/src/Components/Assests/loginSignup.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+    display: flex;
+    height: 100vh;
+  
+}
+
+.image-container {
+  flex: 1;
+  /* overflow: hidden; */
+}
+
+
+.signin-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

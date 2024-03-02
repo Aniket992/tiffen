@@ -1,0 +1,58 @@
+import p2_img from "./breakfast.webp";
+import p3_img from "./lunch1.avif";
+import p4_img from "./dinner.jpg";
+
+let data_product = [
+  {
+    id:13,
+    name:"healthy and tasty breakfast",
+    image:p2_img,
+    new_price:80.00,
+    old_price:100.00,
+  },
+  {id:1,
+    name:"healthy and tasty lunch",
+    image:p3_img,
+    new_price:100.00,
+    old_price:120.50,
+  },
+  {id:36,
+    name:"healthy and tasty dinner",
+    image:p4_img,
+    new_price:110.00,
+    old_price:130.50,
+  },
+  {id:13,
+    name:"healthy and tasty breakfast",
+    image:p2_img,
+    new_price:80.00,
+    old_price:100.00,
+  },
+  {
+    id:13,
+    name:"healthy and tasty breakfast",
+    image:p2_img,
+    new_price:80.00,
+    old_price:100.00,
+  },
+  {id:1,
+    name:"healthy and tasty lunch",
+    image:p3_img,
+    new_price:100.00,
+    old_price:120.50,
+  },
+  {id:36,
+    name:"healthy and tasty dinner",
+    image:p4_img,
+    new_price:110.00,
+    old_price:130.50,
+  },
+  {id:13,
+    name:"healthy and tasty breakfast",
+    image:p2_img,
+    new_price:80.00,
+    old_price:100.00,
+  },
+];
+
+export default data_product;
